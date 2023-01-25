@@ -1,0 +1,22 @@
+{
+  "name": "taller-scraping-blackfriday-nov21-workshop",
+  "version": "1.0.0",
+  "description": "Workshop about scraping. Create an API to scrap react data from some real e-commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBridge-FullStackDeveloper/nodejs-scraping-blackfriday-workshop-nov-21.git"
+  },
+  "author": "Alejandro reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^10.2.0"
+  }
+}
